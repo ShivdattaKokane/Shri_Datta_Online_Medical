@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* reset all :default value */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* adding line height and font weight and family to hlo body */
+html,body{
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.main{
+    background-color:white;
+    height: 100px;
+    align-items: center;
+   
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    
+    margin: 0 auto;
+   
+}
+/* form{
+    float: right;
+} */
+ /* adding shadow to navigation */
+nav{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
+    position: sticky;
+    top: 0;
+    margin-bottom:32px ;
+    background: aliceblue;
+    padding: 10px; ;
+
+}
+
+/* for logo image */
+img{
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+/* for nav tabs */
+.nav_name{
+    padding: 10px;
+    color: black;
+    
+}
+.nav_name a{
+    text-decoration: none;
+    
+}
+.nav_name a :hover{
+    color: blue;
+}
+
+.login a{
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.login a img{
+    width: 20px;
+    height: 20px;
+}
+
+.login a :hover::after{
+    color: blue;
+}
+
+
+/* by using class giving alignment and content space */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+/* hero section */
+.hero{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.hero_content{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.box{
+    
+    max-width: 1200px;
+
+}
+.tag{
+    background-color: #149f39;
+    padding: 5px 10px;
+    color: white;
+    align-self:flex-start ;
+}
+.hero_content h1{
+    font-weight: 400; 
+}
+.heading{
+    margin-bottom: 30px ;
+    padding: 30px;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: #233477;
+}
+
+.main_section{
+    background-color: lightgray;
+    height: 1300px;
+    
+}
+
+
+.medicine{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px; 
+    margin-left: 150px;
+    margin-right: 150px;
+   
+
+}
+
+.medicine img{
+    max-width: 100%;
+    width: 200px;
+    object-fit: cover;
+    height: 150px;
+    border-radius: 15px;
+    
+}
+
+.product img :hover::after{
+    transform: scale(1.2);
+}
+
+
+
+/* footer section */
+footer{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    background-color:  #0c064d;
+    padding: 40px;
+}
+
+/* footer class */
+.footer {
+   
+    color: white;
+    padding: 20px;
+    text-align: start;
+    font-size: 14px;
+    
+  }
+  .intro p {
+    font-size: smaller;
+    color: aliceblue;
+  }
+
+  .footer img{
+    width: 30px;
+    height: 30px;
+  }
+
+
+  .menu_nav h3{
+    color: white;
+
+  }
+  .main_h{
+    color: white;
+  }
+  .nav_n{
+    color: white;
+    text-decoration: none;
+  }
+  .menu_nav p a{
+    
+    
+    text-decoration: none;
+    padding-right:30px ;
+    padding-top: 20px;
+
+    
+
+ 
+  }
+  .menu_nav img{
+    width: auto;
+    height: 35px;
+    border-radius: 10px;
+  }
+  .menu_nav h3{
+    padding-left: 20px;
+  }
